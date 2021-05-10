@@ -35,14 +35,38 @@ body, html {
     font-size: 60%;
     font-weight: bold;
 }
+    .bottomleft a:hover {
+        color: #f50856
+    }
 
+    .bottomleft a {
+        font-size: 1.125rem;
+        color: #fff;
+        text-decoration: none;
+        text-decoration-line: none
+    }
 
-.bottomleft a:hover{color:#f50856}
-.bottomleft a{font-size: 1.125rem;
-	      color:#fff;
-	      text-decoration: none;
-	      text-decoration-line: none
+.bottomright {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    font-style: italic;
+    font-size: 60%;
+    font-weight: bold;
 }
+
+
+    .bottomright a:hover {
+        color: #f50856
+    }
+
+    .bottomright a {
+        font-size: 1.125rem;
+        color: #fff;
+        text-decoration: none;
+        text-decoration-line: none
+    }
+
 
 
 .middle {
