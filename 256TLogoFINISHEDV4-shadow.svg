@@ -10,6 +10,14 @@
     </rdf:RDF>
   </metadata>
   <defs id="defs127">
+    <style type="text/css">
+      @font-face {
+        font-family: 'Old English Text MT';
+        src: url('old.woff2') format('woff2'), url('old.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
     <filter style="color-interpolation-filters:sRGB" inkscape:label="Drop Shadow" id="filter1451">
       <feFlood flood-opacity="1" flood-color="rgb(0,0,0)" result="flood" id="feFlood1441" />
       <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1" id="feComposite1443" />
