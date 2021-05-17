@@ -1,0 +1,6 @@
+﻿@font-face {
+    font-family: 'Old English Text MT';
+    src: url('old.woff2') format('woff2'), url('old.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

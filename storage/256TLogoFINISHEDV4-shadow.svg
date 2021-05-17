@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg8" viewBox="0 0 548 548" height="256" width="256" version="1.1">
+  <defs id="defs127">
+    <filter style="color-interpolation-filters:sRGB" id="filter1451">
+      <feFlood flood-opacity="1" flood-color="rgb(0,0,0)" result="flood" id="feFlood1441" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1" id="feComposite1443" />
+      <feGaussianBlur in="composite1" stdDeviation="3" result="blur" id="feGaussianBlur1445" />
+      <feOffset dx="6" dy="6" result="offset" id="feOffset1447" />
+      <feComposite in="SourceGraphic" in2="offset" operator="over" result="composite2" id="feComposite1449" />
+    </filter>
+  </defs>
+  <title id="title7528">TLogo TM</title>
+  <g id="g1057" transform="translate(22,22)" style="filter:url(#filter1451)">
+    <g id="layer1" style="fill:#7f6000">
+      <g id="layer3">
+        <rect id="use6984" width="24" height="8" ry="4" y="20" x="240" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(7.5,252,252)" id="use3075" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(15,252,252)" id="use3077" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(22.5,252,252)" id="use3079" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(30,252,252)" id="use3081" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(37.5,252,252)" id="use3083" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(45,252,252)" id="use3085" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(52.5,252,252)" id="use3087" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(60,252,252)" id="use3089" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(67.5,252,252)" id="use3091" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(75,252,252)" id="use3093" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(82.5,252,252)" id="use3095" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(90,252,252)" id="use3097" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(97.5,252,252)" id="use3099" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(105,252,252)" id="use3101" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(112.5,252,252)" id="use3103" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(120,252,252)" id="use3105" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(127.5,252,252)" id="use3107" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(135,252,252)" id="use3109" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(142.5,252,252)" id="use3111" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(150,252,252)" id="use3113" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(157.5,252,252)" id="use3115" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(165,252,252)" id="use3117" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(172.5,252,252)" id="use3119" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(180,252,252)" id="use3121" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-172.5,252,252)" id="use3123" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-165,252,252)" id="use3125" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-157.5,252,252)" id="use3127" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-150,252,252)" id="use3129" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-142.5,252,252)" id="use3131" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-135,252,252)" id="use3133" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-127.5,252,252)" id="use3135" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-120,252,252)" id="use3137" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-112.5,252,252)" id="use3139" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-105,252,252)" id="use3141" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-97.5,252,252)" id="use3143" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-90,252,252)" id="use3145" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-82.5,252,252)" id="use3147" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-75,252,252)" id="use3149" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-67.5,252,252)" id="use3151" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-60,252,252)" id="use3153" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-52.5,252,252)" id="use3155" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-45,252,252)" id="use3157" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-37.5,252,252)" id="use3159" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-30,252,252)" id="use3161" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-22.5,252,252)" id="use3163" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-15,252,252)" id="use3165" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use6984" transform="rotate(-7.5,252,252)" id="use3167" style="stroke:#7f6000" width="100%" height="100%" />
+      </g>
+      <g id="layer4">
+        <rect id="use7267" width="12" height="12" x="246" y="36.09" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(5.625,252,252)" id="use3267" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(11.25,252,252)" id="use3269" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(16.875,252,252)" id="use3271" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(22.5,252,252)" id="use3273" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(28.125,252,252)" id="use3275" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(33.75,252,252)" id="use3277" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(39.375,252,252)" id="use3279" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(45,252,252)" id="use3281" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(50.625,252,252)" id="use3283" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(56.25,252,252)" id="use3285" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(61.875,252,252)" id="use3287" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(67.5,252,252)" id="use3289" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(73.125,252,252)" id="use3291" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(78.75,252,252)" id="use3293" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(84.375,252,252)" id="use3295" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(90,252,252)" id="use3297" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(95.625,252,252)" id="use3299" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(101.25,252,252)" id="use3301" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(106.875,252,252)" id="use3303" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(112.5,252,252)" id="use3305" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(118.125,252,252)" id="use3307" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(123.75,252,252)" id="use3309" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(129.375,252,252)" id="use3311" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(135,252,252)" id="use3313" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(140.625,252,252)" id="use3315" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(146.25,252,252)" id="use3317" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(151.875,252,252)" id="use3319" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(157.5,252,252)" id="use3321" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(163.125,252,252)" id="use3323" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(168.75,252,252)" id="use3325" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(174.375,252,252)" id="use3327" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(180,252,252)" id="use3329" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-174.375,252,252)" id="use3331" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-168.75,252,252)" id="use3333" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-163.125,252,252)" id="use3335" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-157.5,252,252)" id="use3337" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-151.875,252,252)" id="use3339" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-146.25,252,252)" id="use3341" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-140.625,252,252)" id="use3343" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-135,252,252)" id="use3345" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-129.375,252,252)" id="use3347" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-123.75,252,252)" id="use3349" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-118.125,252,252)" id="use3351" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-112.5,252,252)" id="use3353" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-106.875,252,252)" id="use3355" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-101.25,252,252)" id="use3357" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-95.625,252,252)" id="use3359" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-90,252,252)" id="use3361" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-84.375,252,252)" id="use3363" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-78.75,252,252)" id="use3365" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-73.125,252,252)" id="use3367" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-67.5,252,252)" id="use3369" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-61.875,252,252)" id="use3371" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-56.25,252,252)" id="use3373" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-50.625,252,252)" id="use3375" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-45,252,252)" id="use3377" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-39.375,252,252)" id="use3379" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-33.75,252,252)" id="use3381" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-28.125,252,252)" id="use3383" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-22.5,252,252)" id="use3385" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-16.875,252,252)" id="use3387" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-11.25,252,252)" id="use3389" style="stroke:#7f6000" width="100%" height="100%" />
+        <use x="0" y="0" xlink:href="#use7267" transform="rotate(-5.625,252,252)" id="use3391" style="stroke:#7f6000" width="100%" height="100%" />
+      </g>
+    </g>
+    <g id="layer2" style="fill-opacity:0;stroke:#7f6000">
+      <circle id="path818" cx="252" cy="252" r="246" style="stroke-width:12" />
+      <circle id="path919" cx="252" cy="252" r="202" style="stroke-width:4" />
+    </g>
+    <g id="layer5" style="font-size:400px;font-family:'Old English Text MT';fill:#7f6000">
+      <text id="text7526">
+        <tspan style="line-height:0px" id="tspan7524" x="77" y="412">T</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
