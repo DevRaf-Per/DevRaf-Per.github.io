@@ -16,18 +16,22 @@
 
     <style>
         body, h1 {
-        font-family: sans-serif
+            font-family: sans-serif
         }
 
         body, html {
-        height: 100%
+            height: 100%
         }
 
         .bgimg {
-        background-image: url('images/forestbridge.jpg');
-        min-height: 100%;
-        background-position: center;
-        background-size: cover;
+            background-image: url('images/forestbridge.jpg');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .topic {
+            display: none
         }
     </style>
 </head>
@@ -39,11 +43,11 @@
         <div class="w3-display-topleft w3-padding-large w3-xlarge">
 
             <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-            <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="4.0" width="75%" height="75%" viewBox="0 0 548 548" id="svg8">
+            <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="4.0" width="65%" height="65%" viewBox="0 0 548 548" id="svg8">
                 <title id="title136">TLogo TM</title>
                 <defs id="defs128">
                     <filter style="color-interpolation-filters:sRGB" id="filter261">
-                        <feFlood flood-opacity="1" flood-color="rgb(0,0,0)" result="flood" id="feFlood251" />
+                        <feFlood flood-opacity="0.5" flood-color="rgb(0,0,0)" result="flood" id="feFlood251" />
                         <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1" id="feComposite253" />
                         <feGaussianBlur in="composite1" stdDeviation="3" result="blur" id="feGaussianBlur255" />
                         <feOffset dx="6" dy="6" result="offset" id="feOffset257" />
@@ -183,12 +187,18 @@
 
         </div>
 
+        <div class="w3-display-topright w3-padding-large">
+
+            <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-circle w3-green w3-xlarge"><i class="fa fa-info-circle"></i></button>
+
+        </div>
+
         <div class="w3-display-middle">
 
             <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
             <hr class="w3-border-grey" style="margin:auto;width:40%" />
             <p class="w3-large w3-center">
-                <svg onload="s(evt)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75%" height="75%" viewBox="0 0 512 512">
+                <svg onload="s(event)" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75%" height="75%" viewBox="0 0 512 512">
                     <title>SVG analog clock</title>
                     <desc>Displays the client's current system time. This SVG was made with highest compability and readability of the source code in mind. SVG performance and size were not important.</desc>
                     <defs>
@@ -544,80 +554,157 @@
 
         </div>
 
-        <div id="id01" class="w3-modal">
-            <div class="w3-modal-content w3-animate-zoom" style="max-width:400px;max-height:224px">
-                <video id="id01-1" width="400" height="224" controls>
-                    <source src="assets/wildrydespromotrim.mp4" type="video/mp4" />
-                </video>
-            </div>
-        </div>
-
         <div class="w3-display-bottomright w3-padding-large w3-tooltip" style="font-family: 'Old English Text MT'">
 
-            Thanks to <span class="w3-text w3-tag w3-round-xlarge w3-animate-opacity">where a lot of the knowledge and resources to create this site were gained</span><a href="https://www.w3schools.com/default.asp" target="_blank"><img src="images/w3schools_logo.svg" alt="W3Schools" style="width:25px;height:25px;" /></a>
+            Thanks to
+            <span class="w3-text w3-tag w3-round-xlarge w3-animate-opacity">where a lot of the knowledge and resources to create this site were gained</span>
+            <a href="https://www.w3schools.com/default.asp" target="_blank"><img src="images/w3schools_logo.svg" alt="W3Schools" style="width:25px;height:25px;" /></a>
+
+        </div>
+
+        <div id="id01" class="w3-modal">
+
+            <div class="w3-modal-content w3-animate-zoom" style="max-width:400px;max-height:224px">
+
+                <video id="id01-1" width="400" height="224" controls=controls>
+                    <source src="assets/wildrydespromotrim.mp4" type="video/mp4" />
+                </video>
+
+            </div>
+
+        </div>
+
+        <div id="id02" class="w3-modal">
+
+            <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+
+                <header class="w3-container w3-green">
+
+                    <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-green w3-xlarge w3-hover-red w3-display-topright">&times;</span>
+
+                    <h1>ALL ABOUT THIS SITE...</h1>
+
+                </header>
+
+                <div class="w3-bar w3-border-bottom w3-text-black">
+                    <button class="tablink w3-bar-item w3-button" onclick="openTopic(event, 'General')">General</button>
+                    <button class="tablink w3-bar-item w3-button" onclick="openTopic(event, 'SVG')">SVGs</button>
+                    <button class="tablink w3-bar-item w3-button" onclick="openTopic(event, 'Paris')">Paris</button>
+                    <button class="tablink w3-bar-item w3-button" onclick="openTopic(event, 'Tokyo')">Tokyo</button>
+                </div>
+
+                <div id="General" class="w3-container topic w3-text-black">
+                    <h1>Why?</h1>
+                    <p>This site was created as a sandbox, to develop, test, and practice coding (free-of-charge) for the static portions of my "real" website. I wanted to learn how to create my own fully functioning site, with all the capabilities of a B2C site; without the help of the so-called “free” website builders, you see advertised so ubiquitously (They all come at a price! Some site builders clearly state what they expect in return, others are much worse, with the true cost nefariously hidden deep within the free code they use).</p>
+                    <p>This meant I had to be up-to-date with the latest in HTML, CSS, and JS, at the bare minimum for a static site, <b>such as this website</b>. And, to achieve my ultimate goal, of a dynamic site as almost all B2C sites are*, jQuery, AJAX, PHP, ASP, XML, SQL. Not to mention all the “auxiliary” tools needed for a “pretty” site, and any languages needed to create an application that may accompany the site…</p>
+                    <p>And I wanted to do all this, without spending a single dime. Daunting, right? But doable! And, since I’ve been pursuing this goal since I was literally a child 😊, and over the past decade or two I’ve managed to learn almost all I need (if they would just stop updating and evolving‼!)</p>
+                    <p>*<sub><i>Since dynamic websites require a server and storage, I am using the services provided by the big 3 web-service providers out there. And to maintain the free-of-charge goal, and ensure security of the site, I’m not sharing links to those sites yet. They are <b>coming soon…</b></i></sub></p>
+                </div>
+
+                <div id="SVG" class="w3-container topic w3-text-black">
+                    <h1>SVGs</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <div id="Paris" class="w3-container topic w3-text-black">
+                    <h1>Paris</h1>
+                    <p>Paris is the capital of France.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+
+                <div id="Tokyo" class="w3-container topic w3-text-black">
+                    <h1>Tokyo</h1>
+                    <p>Tokyo is the capital of Japan.</p>
+                    <br />
+                </div>
+
+                <div class="w3-container w3-light-grey w3-padding">
+                    <button class="w3-button w3-right w3-white w3-border" onclick="document.getElementById('id02').style.display='none'">
+                        Close
+                    </button>
+                </div>
+
+            </div>
 
         </div>
 
     </div>
+
+
+    <script type="text/javascript">
+        document.getElementsByClassName("tablink")[0].click();
+        function openTopic(evt, topicName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("topic");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].classList.remove("w3-light-grey");
+            }
+            document.getElementById(topicName).style.display = "block";
+            evt.currentTarget.classList.add("w3-light-grey");
+        }
+    </script>
 
     <script type="text/javascript">
         // Get the modal
         var modal = document.getElementById('id01');
         // Get the video
         var vid = document.getElementById('id01-1');
-
         // When the user clicks anywhere outside of the modal, pause the video then close it
-        window.onclick = function(event) {
-        if (event.target == modal) {
-        vid.pause();
-        modal.style.display = "none";
-        }
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                vid.pause();
+                modal.style.display = "none";
+            }
         }
     </script>
 
     <script type="text/javascript">
         var y, ny = 0, rotYINT;
         function rotateYDIV() {
-        y = document.getElementById("path818");
-        clearInterval(rotYINT);
-        rotYINT = setInterval("startYRotate()", 10);
+            y = document.getElementById("path818");
+            clearInterval(rotYINT);
+            rotYINT = setInterval("startYRotate()", 10);
         }
         function startYRotate() {
-        ny = ny + 1;
-        y.style.transform = "rotateY(" + ny + "deg)";
-        y.style.webkitTransform = "rotateY(" + ny + "deg)";
-        y.style.OTransform = "rotateY(" + ny + "deg)";
-        y.style.MozTransform = "rotateY(" + ny + "deg)";
-        if (ny == 180 || ny >= 360) {
-        clearInterval(rotYINT);
-        if (ny >= 360) {
-        ny = 0;
-        }
-        }
+            ny = ny + 1;
+            y.style.transform = "rotateY(" + ny + "deg)";
+            y.style.webkitTransform = "rotateY(" + ny + "deg)";
+            y.style.OTransform = "rotateY(" + ny + "deg)";
+            y.style.MozTransform = "rotateY(" + ny + "deg)";
+            if (ny == 180 || ny >= 360) {
+                clearInterval(rotYINT);
+                if (ny >= 360) {
+                    ny = 0;
+                }
+            }
         }
     </script>
 
     <script type="text/javascript">
-        function s(e) {
-        // Create new Date() object.
-        var d = new Date();
-        // Get current seconds.
-        var s = d.getSeconds();
-        // Get current minutes and add the current second.
-        var m = d.getMinutes() + s / 60;
-        // Get current hours and add the current minute.
-        var h = d.getHours() + m / 60;
-        // Get the current document, so we can alter the DOM.
-        var svg = e.target.ownerDocument;
-        // Rotate the second clockhand to the current seconds.
-        svg.getElementById("Second").setAttribute("transform", "rotate(" + (s * 6) + ", 256, 256)");
-        svg.getElementById("SecondShadow").setAttribute("transform", "rotate(" + (s * 6) + ", 253, 259)");
-        // Rotate the minute clockhand to the current minute.
-        svg.getElementById("Minute").setAttribute("transform", "rotate(" + (m * 6) + ", 256, 256)");
-        svg.getElementById("MinuteShadow").setAttribute("transform", "rotate(" + (m * 6) + ", 254, 258)");
-        // Rotate the hour clockhand to the current hour.
-        svg.getElementById("Hour").setAttribute("transform", "rotate(" + (h * 30) + ", 256, 256)");
-        svg.getElementById("HourShadow").setAttribute("transform", "rotate(" + (h * 30) + ", 255, 257)");
+        function s(evt) {
+            // Create new Date() object.
+            var d = new Date();
+            // Get current seconds.
+            var s = d.getSeconds();
+            // Get current minutes and add the current second.
+            var m = d.getMinutes() + s / 60;
+            // Get current hours and add the current minute.
+            var h = d.getHours() + m / 60;
+            // Get the current document, so we can alter the DOM.
+            var svg = evt.target.ownerDocument;
+            // Rotate the second clockhand to the current seconds.
+            svg.getElementById("Second").setAttribute("transform", "rotate(" + (s * 6) + ", 256, 256)");
+            svg.getElementById("SecondShadow").setAttribute("transform", "rotate(" + (s * 6) + ", 253, 259)");
+            // Rotate the minute clockhand to the current minute.
+            svg.getElementById("Minute").setAttribute("transform", "rotate(" + (m * 6) + ", 256, 256)");
+            svg.getElementById("MinuteShadow").setAttribute("transform", "rotate(" + (m * 6) + ", 254, 258)");
+            // Rotate the hour clockhand to the current hour.
+            svg.getElementById("Hour").setAttribute("transform", "rotate(" + (h * 30) + ", 256, 256)");
+            svg.getElementById("HourShadow").setAttribute("transform", "rotate(" + (h * 30) + ", 255, 257)");
         }
     </script>
 
