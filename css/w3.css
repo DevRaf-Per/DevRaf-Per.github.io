@@ -12,7 +12,8 @@ html {
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html {
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -156,7 +157,9 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-    -webkit-appearance: button
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 }
 
 button::-moz-focus-inner,
@@ -204,6 +207,8 @@ textarea {
 
 [type=search] {
     -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
     outline-offset: -2px
 }
 
@@ -1006,40 +1011,40 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
 }
 
 .w3-display-left {
     position: absolute;
     top: 50%;
     left: 0%;
+    -ms-transform: translate(-0%, -50%);
     transform: translate(0%, -50%);
-    -ms-transform: translate(-0%, -50%)
 }
 
 .w3-display-right {
     position: absolute;
     top: 50%;
     right: 0%;
+    -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
-    -ms-transform: translate(0%, -50%)
 }
 
 .w3-display-topmiddle {
     position: absolute;
     left: 50%;
     top: 0;
+    -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%)
 }
 
 .w3-display-bottommiddle {
     position: absolute;
     left: 50%;
     bottom: 0;
+    -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
-    -ms-transform: translate(-50%, 0%)
 }
 
 .w3-display-container:hover .w3-display-hover {
