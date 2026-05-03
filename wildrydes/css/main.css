@@ -4,7 +4,8 @@ html {
     font-family: sans-serif;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -45,7 +46,8 @@ pre {
 
 a {
     background-color: transparent;
-    -webkit-text-decoration-skip: objects
+    -webkit-text-decoration-skip: objects;
+    text-decoration-skip: objects;
 }
 
 a:active,
@@ -147,6 +149,8 @@ select {
 button,
 html [type=button] {
     -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     cursor: pointer
 }
 
@@ -202,6 +206,8 @@ textarea {
 
 [type=search] {
     -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
     outline-offset: -2px
 }
 
