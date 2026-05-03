@@ -1,0 +1,45 @@
+body,
+h1 {
+    font-family: sans-serif
+}
+
+body,
+html {
+    height: 100%
+}
+
+a sub {
+    text-decoration: none;
+    display: inline-block;
+    /* Helps prevent the underline from inherited parents */
+}
+
+.bgimg {
+    background-image: url('../images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic {
+    display: none
+}
+
+.w3-tooltip-text-container {
+    font-family: 'Old English Text MT'
+}
+
+hr.w3-border-grey {
+    margin: auto;
+    width: 40%;
+}
+
+.modal-video-content {
+    max-width: 400px;
+    max-height: 224px;
+}
+
+.w3schools-logo {
+    width: 25px;
+    height: 25px;
+}
