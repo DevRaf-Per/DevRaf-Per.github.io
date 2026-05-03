@@ -706,12 +706,15 @@
 
         </div>
 
-        <div id="id01" class="w3-modal">
+        <div id="id01" class="w3-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
 
             <div class="w3-modal-content w3-animate-zoom" style="max-width:400px;max-height:224px">
 
-                <video id="id01-1" width="400" height="224" controls=controls>
+                <h2 id="modal-title" class="w3-hide">WildRydes Promotional Video</h2>
+
+                <video id="id01-1" width="400" height="224" controls>
                     <source src="assets/wildrydespromotrim.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
                 </video>
 
             </div>
@@ -799,7 +802,6 @@
 
     </div>
 
-
     <script type="text/javascript">
         document.getElementsByClassName("tablink")[0].click();
         function openTopic(evt, topicName) {
@@ -836,7 +838,7 @@
         function rotateYDIV() {
             y = document.getElementById("path818");
             clearInterval(rotYINT);
-            rotYINT = setInterval("startYRotate()", 10);
+            rotYINT = setInterval(startYRotate, 10);
         }
         function startYRotate() {
             ny = ny + 1;
