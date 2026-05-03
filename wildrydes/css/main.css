@@ -2569,6 +2569,14 @@ img {
     }
 }
 
+.home-sign-up .icon-w:before {
+    content: '';
+    background: url(../images/wr-home-W.png) no-repeat;
+    width: 14.75rem;
+    height: 3.75rem;
+    margin: 0 auto 1.25rem
+}
+
 .home-sign-up form {
     max-width: 45rem;
     margin: 1.875rem auto;
